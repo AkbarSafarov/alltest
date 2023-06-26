@@ -1,0 +1,371 @@
+.elfinder-toolbar {
+    background: #7e4c93;
+}
+
+.elfinder .elfinder-navbar {
+    background-color: #ffffff;
+    box-shadow: 0 2px 6px -2px rgb(0 0 0 / 16%), 0 2px 6px 0 rgb(0 0 0 / 12%);
+    padding: 20px 0;
+}
+
+.elfinder-button-icon::before {
+    font-size: 20px;
+}
+
+.elfinder-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: initial;
+    height: 20px;
+}
+
+.elfinder-buttonset,
+.elfinder-toolbar-button-separator {
+    height: initial;
+}
+
+.elfinder-buttonset {
+    margin: 0;
+}
+
+.elfinder-button-icon {
+    width: 20px;
+    height: 20px;
+    margin-top: initial;
+}
+
+.elfinder .elfinder-button {
+    min-width: 20px !important;
+    height: 20px !important;
+    padding: 5px !important;
+}
+
+.ui-widget-content {
+    display: flex;
+    align-items: center;
+}
+
+.elfinder-navbar .ui-state-active,
+.elfinder-disabled .elfinder-navbar .ui-state-active {
+    background: transparent;
+}
+
+.elfinder-navbar-dir {
+    color: #6e768e;
+    padding: 12px;
+}
+
+.elfinder-navbar-dir.ui-state-hover {
+    background-color: initial !important;
+    color: initial !important;
+}
+
+.elfinder .elfinder-navbar {
+    font-size: 13px;
+}
+
+.elfinder-navbar-dir.ui-state-active.ui-state-hover {
+    background: transparent;
+}
+
+.elfinder-ltr .elfinder-navbar-icon {
+    left: 18px;
+}
+
+.elfinder-ltr .elfinder-navbar-dir {
+    padding-left: 38px;
+}
+
+.elfinder-workzone {
+    background-color: #eaeff2;
+}
+
+.elfinder-cwd {
+    padding: 1.5rem;
+}
+
+.elfinder-cwd-file {
+    cursor: pointer;
+}
+
+.elfinder-cwd-filename.ui-state-hover {
+    color: #ffffff !important;
+}
+
+.elfinder-cwd-filename.ui-state-active {
+    color: inherit !important;
+}
+
+.elfinder-cwd-file {
+    color: #1b1a1f !important;
+    cursor: pointer !important;
+}
+
+.elfinder .elfinder-button-search input {
+    background-color: #a73d95;
+    padding: 0 30px;
+    border-radius: 5px;
+}
+
+.elfinder .elfinder-button-search {
+    width: 100px;
+    transition: width 0.3s;
+}
+
+.elfinder-ltr .elfinder-button-search .ui-icon-search {
+    left: 5px;
+}
+
+.elfinder-ltr .elfinder-button-search .ui-icon-close,
+.elfinder-rtl .elfinder-button-search .ui-icon-search {
+    right: 5px;
+}
+
+.elfinder-navbar-icon:before,
+.elfinder-ltr .elfinder-navbar-expanded .elfinder-navbar-arrow:before,
+.elfinder-rtl .elfinder-navbar-expanded .elfinder-navbar-arrow:before {
+    color: #88868f;
+}
+
+.elfinder .elfinder-navbar {
+    font-size: 14px;
+}
+
+.elfinder-ltr .elfinder-navbar-dir {
+    padding: 12px 53px;
+}
+
+.ui-state-default.elfinder-navbar {
+    width: 240px;
+}
+
+.elfinder-ltr .elfinder-navbar-icon {
+    left: 20px;
+}
+
+.elfinder-ltr .elfinder-navbar-arrow {
+    right: 20px;
+    left: initial;
+}
+
+.elfinder .ui-state-active .elfinder-navbar-arrow {
+    color: #88868f;
+}
+
+.elfinder-navbar-arrow {
+    padding: 0;
+}
+
+.elfinder-cwd-wrapper {
+    background: linear-gradient(180deg, #f5f2ff 0%, #e3e5ed 100%);
+}
+
+.elfinder-navbar-arrow {
+    color: #88868f;
+}
+
+.elfinder .elfinder-button-search-menu {
+    padding: 5px 10px;
+}
+
+.elfinder .elfinder-button-search-menu .ui-button {
+    padding: 0.6em 1em !important;
+}
+
+.elfinder .elfinder-button-search-menu {
+    top: 35px !important;
+}
+
+.elfinder-cwd-file.ui-state-hover,
+.elfinder-cwd-file.ui-selected.ui-state-hover,
+.elfinder-cwd-file.ui-selected,
+.elfinder-cwd-file.ui-selected {
+    background-color: #e6e6e6;
+}
+
+.elfinder-navbar .ui-state-active,
+.elfinder-disabled .elfinder-navbar .ui-state-active {
+    color: #88868f !important;
+}
+
+.elfinder .ui-button:hover,
+.elfinder a.ui-button:active,
+.elfinder .ui-button:active,
+.elfinder .ui-button:focus,
+.elfinder .ui-button.ui-state-hover,
+.elfinder .ui-button.ui-state-active {
+    background-color: #a73d95 !important;
+}
+
+.elfinder-navbar-dir {
+    color: #88868f;
+}
+
+.elfinder .elfinder-contextmenu-item {
+    padding: 10px 40px;
+}
+
+.elfinder .elfinder-contextmenu-ltr .elfinder-contextmenu-icon {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0;
+    word-break: break-word;
+}
+
+.ui-front.ui-dialog.ui-widget {
+    display: flex;
+    flex-direction: column;
+}
+
+.ui-front.ui-dialog.ui-widget,
+.ui-dialog-titlebar.ui-widget-header.ui-corner-top.ui-helper-clearfix,
+.ui-dialog-content.ui-widget-content {
+    max-width: 350px !important;
+    width: 100% !important;
+    box-sizing: border-box;
+}
+
+.std42-dialog .ui-dialog-content,
+.ui-dialog-titlebar.ui-widget-header.ui-corner-top.ui-helper-clearfix {
+    padding: 12px;
+}
+
+.ui-helper-clearfix.elfinder-info-title {
+    width: 30%;
+}
+
+.elfinder-info-tb {
+    width: 70%;
+}
+
+.elfinder-ltr .elfinder-info-tb tr td:first-child,
+.elfinder-rtl .elfinder-cwd table td:first-child {
+    text-align: left;
+}
+
+.std42-dialog .ui-dialog-titlebar {
+    background-color: #a73d95;
+}
+
+.elfinder-cwd-file.ui-state-hover {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.elfinder .elfinder-dialog {
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+}
+
+.elfinder .elfinder-contextmenu-ltr .elfinder-contextmenu-extra-icon,
+.elfinder .elfinder-contextmenu-rtl .elfinder-contextmenu-icon {
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0;
+}
+
+.elfinder .elfinder-contextmenu-sub .elfinder-contextmenu-item {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.elfinder .elfinder-contextmenu-ltr .elfinder-contextmenu-item .ui-icon,
+.elfinder-ltr .elfinder-upload-dialog-wrapper .elfinder-upload-dirselect {
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-top: 0;
+}
+
+.elfinder .elfinder-cwd table thead td.ui-state-active {
+    background: #7e4c93 !important;
+    color: #ffffff !important;
+}
+
+.elfinder-cwd table tr:nth-child(odd).ui-state-hover {
+    background-color: #e6e6e6 !important;
+}
+
+.elfinder-button-menu-item.ui-state-hover {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.elfinder-button-menu-item.ui-state-hover {
+    background: #a73d95 !important;
+    color: #ffffff !important;
+}
+
+.elfinder-navbar-dir.elfinder-navbar-expanded,
+.elfinder-navbar-dir.elfinder-navbar-expanded .elfinder-navbar-arrow,
+.elfinder-navbar-dir.elfinder-navbar-expanded .elfinder-navbar-arrow::before,
+.elfinder-navbar-dir.elfinder-navbar-expanded .elfinder-navbar-icon,
+.elfinder-navbar-dir.elfinder-navbar-expanded .elfinder-navbar-icon::before {
+    color: #a73d95 !important;
+}
+
+.ui-dialog-content.ui-widget-content {
+    display: flex;
+}
+
+.ui-helper-clearfix.elfinder-info-title {
+    flex: 0 1 100px;
+}
+
+.elfinder-info-tb {
+    flex: 0 1 auto;
+}
+
+.elfinder-cwd-icon.elfinder-cwd-icon-video.elfinder-cwd-icon-mp4.ui-corner-all {
+    margin-bottom: 4px;
+}
+
+.ui-front.ui-dialog.ui-widget,
+.ui-dialog-titlebar.ui-widget-header.ui-corner-top.ui-helper-clearfix,
+.ui-dialog-content.ui-widget-content {
+    max-width: 350px !important;
+}
+
+.elfinder-quicklook {
+    padding: 50px 0 40px;
+}
+
+.elfinder-quicklook-navbar-icon {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+}
+
+.elfinder-quicklook-navbar {
+    height: initial;
+    bottom: 10px;
+    transform: translateX(-50%);
+    margin-left: 0;
+    width: auto;
+}
+
+.elfinder-quicklook {
+    background: #7e4c93;
+}
+
+.elfinder-quicklook-titlebar-icon .ui-icon {
+    background: initial;
+}
+
+.elfinder-quicklook-preview-video,
+.elfinder-quicklook-preview.ui-helper-clearfix {
+    background: #000;
+}
+
+.ui-widget-header.ui-dialog-titlebar-close.ui-corner-all.elfinder-titlebar-button.elfinder-quicklook-titlebar-icon.elfinder-titlebar-button-right {
+    background: initial;
+}
+
+.elfinder-quicklook-navbar-separator {
+    height: 20px;
+}
+
+.elfinder-quicklook-fullscreen .elfinder-quicklook-navbar {
+    width: 140px;
+    margin-left: 0;
+}

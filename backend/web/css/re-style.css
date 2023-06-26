@@ -1,0 +1,313 @@
+/*        Fonts        */
+
+
+@font-face {
+    font-family: "Inter";
+    font-display: swap;
+    src: url("../fonts/Inter-Regular.woff") format("woff"), url("../fonts/Inter-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-display: swap;
+    src: url("../fonts/Inter-Italic.woff") format("woff"), url("../fonts/Inter-Italic.woff2") format("woff2");
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Inter";
+    font-display: swap;
+    src: url("../fonts/Inter-Bold.woff") format("woff"), url("../fonts/Inter-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+/*        Style        */
+
+
+#sidebar-menu > ul > li > a i {
+    margin: 0 15px 0 3px;
+}
+
+.grid-view-per-page {
+    display: inline-block;
+    width: auto;
+}
+
+.grid-view .pagination {
+    justify-content: flex-end;
+}
+
+.grid-view .summary {
+    padding-top: 0.85em;
+}
+
+.select2-selection__arrow {
+    display: none;
+}
+
+.select2-container {
+    min-width: 200px;
+    z-index: 11111;
+}
+
+.grid-view img {
+    max-width: 50px;
+}
+
+th,
+td {
+    vertical-align: top;
+}
+
+.custom-accordion .accordion-arrow {
+    right: 1.5rem;
+}
+
+.form-check-input-lg {
+    width: 30px;
+    height: 30px;
+}
+
+.yii2-elfinder-input-preview:not(:empty) {
+    margin-bottom: 1rem !important;
+}
+
+.yii2-elfinder-input-preview * {
+    max-width: 200px;
+}
+
+.help-block {
+    margin: 0;
+    color: #888;
+    font-style: italic;
+}
+
+.help-block-error {
+    font-style: normal;
+}
+
+.help-block:not(:empty) {
+    margin: 0.5rem 0;
+}
+
+.has-success label,
+.has-success .help-block-error {
+    color: #1abc9c;
+}
+
+.has-error label,
+.has-error .help-block-error {
+    color: #f1556c;
+}
+
+.has-success input[type="text"],
+.has-success input[type="password"],
+.has-success input[type="file"],
+.has-success textarea,
+.has-success select {
+    border-color: #1abc9c;
+    padding-right: calc(1.5em + 0.9rem);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%231abc9c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.225rem) top 0.5rem;
+    background-size: calc(0.75em + 0.45rem) calc(0.75em + 0.45rem);
+}
+
+.has-error input[type="text"],
+.has-error input[type="password"],
+.has-error input[type="file"],
+.has-error textarea,
+.has-error select {
+    border-color: #f1556c;
+    padding-right: calc(1.5em + 0.9rem);
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 12' width='12' height='12' fill='none' stroke='%23f1556c'%3e%3ccircle cx='6' cy='6' r='4.5'/%3e%3cpath stroke-linejoin='round' d='M5.8 3.6h.4L6 6.5z'/%3e%3ccircle cx='6' cy='8.2' r='.6' fill='%23f1556c' stroke='none'/%3e%3c/svg%3e");
+    background-repeat: no-repeat;
+    background-position: right calc(0.375em + 0.225rem) top 0.5rem;
+    background-size: calc(0.75em + 0.45rem) calc(0.75em + 0.45rem);
+}
+
+.grid-view .labels a {
+    display: block;
+    position: relative;
+    color: #6c757d;
+}
+
+.grid-view .labels a::before,
+.grid-view .labels a::after {
+    position: absolute;
+    opacity: 0.3;
+}
+
+.grid-view .labels a::before {
+    right: 1em;
+    content: "\2191";
+}
+
+.grid-view .labels a::after {
+    right: 0.5em;
+    content: "\2193";
+}
+
+.grid-view .labels a.asc::before,
+.grid-view .labels a.desc::after {
+    opacity: 1;
+}
+
+.navbar-custom {
+    z-index: 1000000;
+}
+
+.modal {
+    z-index: 1000600;
+}
+
+select[multiple] {
+    height: 0;
+    padding: 35px 0 0;
+    overflow: hidden;
+}
+
+.ui-sortable-helper {
+    background: #fff;
+}
+
+.sortable-placeholder {
+    background: rgba(126, 87, 194, 0.18);
+}
+
+.jq-has-icon {
+    padding: 15px 15px 15px 40px;
+    background-size: 20px;
+}
+
+.jq-toast-wrap {
+    width: 400px;
+}
+
+.jq-toast-wrap h2 {
+    margin: 0;
+}
+
+td img,
+td audio,
+td video {
+    max-width: 100%;
+}
+
+.disabled-block {
+    cursor: not-allowed;
+}
+
+.disabled-block * {
+    pointer-events: none;
+}
+
+.disabled-block a,
+.disabled-block button,
+.disabled-block .btn {
+    display: none;
+}
+
+.loading {
+    cursor: wait;
+}
+
+.loading * {
+    pointer-events: none;
+}
+
+.select2-hidden-accessible {
+    display: none;
+}
+
+.course-section-2-sortable,
+.course-unit-sortable {
+    min-height: 30px;
+}
+
+.common-buttons {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    background: #fff;
+    z-index: 1;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+}
+
+.common-buttons button {
+    margin: 0.75rem;
+}
+
+.common-buttons button + button {
+    margin-left: 0;
+}
+
+.course-unit-collapse-toggle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.course-unit .card-header > *:not(.course-unit-collapse-toggle) {
+    z-index: 1;
+}
+
+.course-section-wrapper .collapsing {
+    transition: none;
+    display: none;
+}
+
+.mce-window.mce-in {
+    z-index: 11111112 !important;
+}
+
+.course-unit .card-header {
+    position: relative;
+}
+
+.modal-backdrop {
+    z-index: 1000040;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #eee;
+}
+
+div.mce-fullscreen {
+    z-index: 111111;
+}
+
+.notification-list .notify-item {
+    white-space: normal;
+}
+
+hr:not([size]) {
+    background: #ddd;
+}
+
+#upload-progress-bar {
+    position: fixed;
+    z-index: 1111111;
+    left: 30px;
+    bottom: 30px;
+    width: 300px;
+    box-shadow: 0 1px 4px 0 rgb(0 0 0 / 10%);
+}
+
+#upload-progress-bar .progress {
+    padding: 1rem;
+    background: #fff;
+    height: 45px;
+}
+
+.mce-menu {
+    z-index: 11111113 !important;
+}
